@@ -3,7 +3,7 @@ entries:
   ibm-etcd-operator-dev:
   - apiVersion: v1
     appVersion: 0.7.0
-    created: 2019-06-23T23:22:04.099822501-07:00
+    created: 2019-06-24T00:44:14.683733133-07:00
     description: CoreOS etcd-operator Helm chart for Kubernetes
     digest: 18066b0f8a74dee07d21096a88aa27753c1d9a7ef3045641dfd73f3e3a42376a
     home: https://github.com/coreos/etcd-operator
@@ -25,9 +25,40 @@ entries:
     urls:
     - https://nailushapotnuru.github.io/myhelmrepo/ibm-etcd-operator-dev-0.7.7.tgz
     version: 0.7.7
+  ibm-matomo-dev:
+  - appVersion: 5.1.0
+    created: 2019-06-24T00:44:14.713328087-07:00
+    description: Web publishing platform for building blogs and websites.
+    digest: dbe62040d8f1a29f347405146daac0ac13ebeed64879659643ccfc99d9faea6e
+    engine: gotpl
+    home: http://www.matomo.com/
+    icon: https://bitnami.com/assets/stacks/matomo/img/matomo-stack-220x234.png
+    keywords:
+    - matomo
+    - cms
+    - blog
+    - http
+    - web
+    - application
+    - php
+    - Limited
+    - Beta
+    - ppc64le
+    - ICP
+    - Tools
+    kubeVersion: '>=1.7.0'
+    maintainers:
+    - name: Nailusha
+    name: ibm-matomo-dev
+    sources:
+    - https://github.com/matomo-org/docker
+    tillerVersion: '>=2.7.2'
+    urls:
+    - https://nailushapotnuru.github.io/myhelmrepo/ibm-matomo-dev-0.3.0.tgz
+    version: 0.3.0
   ibm-wordpress-dev:
   - appVersion: 5.1.0
-    created: 2019-06-23T23:22:04.133024825-07:00
+    created: 2019-06-24T00:44:14.74516182-07:00
     description: Web publishing platform for building blogs and websites.
     digest: 6d8fad8b1538ed8f1b4e8642f63fa09aa8f742f097ea6cc0c8dd68f10a59de4b
     engine: gotpl
@@ -56,4 +87,4 @@ entries:
     urls:
     - https://nailushapotnuru.github.io/myhelmrepo/ibm-wordpress-dev-0.3.0.tgz
     version: 0.3.0
-generated: 2019-06-23T23:22:04.093703658-07:00
+generated: 2019-06-24T00:44:14.67899692-07:00
