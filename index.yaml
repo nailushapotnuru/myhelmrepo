@@ -1,10 +1,35 @@
 apiVersion: v1
 entries:
+  ibm-etcd-operator-dev:
+  - apiVersion: v1
+    appVersion: 0.7.0
+    created: 2019-06-23T23:22:04.099822501-07:00
+    description: CoreOS etcd-operator Helm chart for Kubernetes
+    digest: 18066b0f8a74dee07d21096a88aa27753c1d9a7ef3045641dfd73f3e3a42376a
+    home: https://github.com/coreos/etcd-operator
+    icon: https://raw.githubusercontent.com/ppc64le/charts/master/logo/etcd-horizontal-color.png
+    keywords:
+    - Limited
+    - ppc64le
+    - Tools
+    - ICP
+    - etc-operator
+    - Beta
+    kubeVersion: '>=1.7.0'
+    maintainers:
+    - name: IBM ISV Team
+    name: ibm-etcd-operator-dev
+    sources:
+    - https://github.com/coreos/etcd-operator
+    tillerVersion: '>=2.7.2'
+    urls:
+    - https://nailushapotnuru.github.io/myhelmrepo/ibm-etcd-operator-dev-0.7.7.tgz
+    version: 0.7.7
   ibm-wordpress-dev:
   - appVersion: 5.1.0
-    created: 2019-06-13T01:58:46.582654663-07:00
+    created: 2019-06-23T23:22:04.133024825-07:00
     description: Web publishing platform for building blogs and websites.
-    digest: 845be4151c0937cccc153850cfe7f886ad137fcfab4e0a3eaffe548f81d35386
+    digest: 6d8fad8b1538ed8f1b4e8642f63fa09aa8f742f097ea6cc0c8dd68f10a59de4b
     engine: gotpl
     home: http://www.wordpress.com/
     icon: https://bitnami.com/assets/stacks/wordpress/img/wordpress-stack-220x234.png
@@ -31,4 +56,4 @@ entries:
     urls:
     - https://nailushapotnuru.github.io/myhelmrepo/ibm-wordpress-dev-0.3.0.tgz
     version: 0.3.0
-generated: 2019-06-13T01:58:46.557439112-07:00
+generated: 2019-06-23T23:22:04.093703658-07:00
